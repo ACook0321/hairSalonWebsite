@@ -1,0 +1,53 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.mainCONTACT{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-content: center;
+}
+.contactHEADER{
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+.formCONTAINER{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* justify-content: center; */
+  align-content: center;
+  min-width: 620px;
+  height: 700px;
+  margin: auto;
+  }
+  .conBORDER{
+    border: black 2px solid;
+  }
+  .conSIZE{
+    height: 60px;
+    text-align: center;
+    color: black;
+  }
+  .messageSIZE{
+    text-align: center;
+    font-size: 17px;
+    color: black;
+  }
+  .sendSIZE{
+    width: 105;
+    height: 66;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+  }

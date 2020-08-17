@@ -1,0 +1,119 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  background: none;
+}
+/* this is css for main blog page */
+.blogBORDERimg{
+  border: black 2px solid;
+  border-right: 1px;
+}
+.blogBORDERart{
+  border: black 2px solid;
+}
+.blogMAIN{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+    }
+.blogHEADER{
+  color: white;
+  background-color: black;
+  text-align: center;
+ }
+.blog1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 15;
+  margin-top: 30;
+}
+.blog2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 15;
+}
+.blog3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 30;
+}
+
+.article1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 20;
+  }
+.article2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 20;
+}
+.article3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 20;
+}
+.artTtitle{
+  text-align: center;
+}
+.blog{
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding: 20;
+}
+/* this is css for blog1 */
+.mainContainerART1{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.mainBlog1{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-content: center;  
+}
+.header{
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.blogIamge1{
+  width: fit-content;
+  border: black 2px solid;
+  margin: auto;
+  }
+
+p{
+  width: 560px;
+  padding: 20;
+  margin: auto;
+  line-height: 24px;
+  text-align: center;  
+}
